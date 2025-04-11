@@ -136,7 +136,7 @@ p {
 .dev-skill-items button {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 2px solid var(--clr-black);
   border-radius: var(--size-border-radius);
   font-weight: var(--weight-semi-bold);
@@ -148,4 +148,12 @@ p {
 .dev-skill-items img {
   width: 2rem;
   margin-right: 0.8rem;
+}
+.Certification{
+  width: 100%;
+    box-shadow: rgb(221, 221, 221) 0px 0px 5px 1px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out; 
+    font-size: 20px;
 }
